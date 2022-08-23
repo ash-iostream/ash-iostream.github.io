@@ -1,0 +1,203 @@
+html{
+    scroll-behavior: smooth;
+    overflow:scroll;
+}
+#title {
+background-color: #fefae0 ;
+overflow: hidden;
+}
+
+
+.heading{
+    font-family:'Montserrat';
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height:1.5 ;
+}
+
+.main {
+    display: flex;
+    justify-items: center;
+    padding: 2% 20%;
+    padding-left: 18%;
+}
+
+.btn-custom{
+   width: auto;
+}
+
+.nav-item{
+    margin-top: 1rem;
+}
+
+
+.nav-link{
+    font-size: 1.5rem;
+    color: #2b2d42;
+}
+
+#tf{
+    color: #2b2d42;
+}
+
+.container-fluid{ 
+   width: 1050px;
+}
+
+.navitems{
+    margin-top: 2rem;
+    font-size: xxx-large;
+    font-family: Montserrat;
+    font-weight: 400;
+
+}
+
+.imgedits{
+   padding-left: 4rem;
+}
+
+.rotate {
+    transform: rotate(20deg);
+  }
+
+#title{
+    position:relative;
+  }
+
+
+ .imgstyle{
+    margin-bottom: -40%;
+
+ }
+
+.box{
+  
+    font-family: Montserrat;
+    text-align: center;
+    padding: 8rem 4rem;
+    font-size: x-large;
+}
+
+h3{
+    font-weight: 600;
+}
+
+.mainbody{
+    padding: 3rem 6rem;
+}
+
+
+.faico{
+    color: #4a4e69;
+}
+
+.faico:hover{
+    color: #303244 ;
+}
+
+/* Testimonials */
+#testimonials{
+    text-align: center;
+    padding: 7% 15%;
+    background-color: #fefae0 ;
+}
+
+h2{
+    font-size: 2.5rem;
+    font-family: Montserrat;
+    font-weight: 560;
+}
+
+.testimonialimg{
+width: 10%;
+border-radius: 100%;
+margin: 20px;
+}
+
+#press{
+    background-color: #fefae0;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.PressImg{
+    width: 15%;
+    margin:10px 20px 20px 0px;
+}
+
+.mb-2{
+   width: 25%;
+}
+
+p{
+    line-height: 2rem;
+    font-family: Montserrat;
+    font-size: large;
+}
+
+h2{
+    line-height: 5rem;
+}
+
+.SignUpBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 220px;
+    height: 60px;
+    
+    background-color: var(--light-theme);
+    cursor: pointer;
+    font-size: 24px;
+    color: var(--color);
+    transition: all 0.3s;
+    position: relative;
+  
+    text-align: center;
+    overflow: hidden;
+  
+    border-radius: 5px;
+    box-shadow: 0 6px 30px -10px rgba(#CCCCCC, 1);
+ 
+}
+
+.SignUpBtn:hover{
+    transform: translateX(5px) translateY(-7px);
+}
+
+span{
+    display: flex;
+    justify-content: center;
+}
+
+.card-deck{
+    padding: 2rem;
+justify-content: center;
+}
+
+.footer{
+    background-color: #fefae0;
+}
+
+.btn{
+    font-family: Poppins;
+    font-weight: 300;
+}
+
+@media (max-width:1280px) {
+    .imgedits {
+        margin-bottom: 40%;
+        padding-left: 1rem;
+        position: static;
+        transform: rotate(0);
+    }
+     
+    .mainbody{
+        padding: 2rem 5rem;
+    }
+
+        .mb-2{
+            width: 40%;
+        }
+}
